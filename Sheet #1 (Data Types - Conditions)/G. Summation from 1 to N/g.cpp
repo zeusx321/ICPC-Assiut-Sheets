@@ -2,11 +2,11 @@
 using namespace std;
 
 int main() {
-    int x;
+    long long x;
 
     cin >> x;
 
-    long long sum=x*(x+1)*2;
+    long long sum=(x*(x+1))/2;
 
     cout << sum;
     
