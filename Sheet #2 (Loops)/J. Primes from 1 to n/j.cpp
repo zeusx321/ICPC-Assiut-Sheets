@@ -9,17 +9,17 @@ int main() {
 
     for (int i = 2; i <= x; i++)
     {
-        for (int j = i; j <= x; j++)
+        for (int j = 2; j <= i; j++)
         {
-            if(i%2 == 0 ){
-                flag = true;
-                break;
+            if(i==j || i%j != 0){
+                continue;
             }else
             {
-                continue;
+                flag = true;
+                break;
             }
-            
         }
+
         if (flag)
         {
             flag = false;
