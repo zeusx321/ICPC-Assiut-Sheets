@@ -24,8 +24,8 @@ Each sheet focuses on a specific topic — starting with basics like I/O and con
 | Sheet | Topic / Focus | Problems | Status |
 |:------|:------------------------------|:-----------:|:----------:|
 | 🟢 Sheet #1 | Basic Data Types & Conditions | 26 | ✅ Completed |
-| 🟡 Sheet #2 | Loops | -- | 🔄 In Progress |
-| ⚪ Sheet #3 | Arrays | -- | ⏳ Planned |
+| 🟢 Sheet #2 | Loops | 26 | ✅ Completed |
+| 🟡 Sheet #3 | Arrays | -- | 🔄 In Progress |
 | ⚪ Sheet #4 | Strings | -- | ⏳ Planned |
 | ⚪ Sheet #5 | Functions | -- | ⏳ Planned |
 | ⚪ Sheet #6 | Math | -- | ⏳ Planned |
@@ -61,8 +61,9 @@ Each folder represents one sheet, and each file is named after the problem.
 > Each tick means the entire sheet is done and uploaded 💪
 
 ✅ Sheet #1 — Completed  
-🔄 Sheet #2 — In Progress  
-☑️ Sheet #3–7 — Coming Soon  
+✅ Sheet #2 — Completed  
+🔄 Sheet #3 — In Progress  
+☑️ Sheet #4–7 — Coming Soon  
 
 ---
 
