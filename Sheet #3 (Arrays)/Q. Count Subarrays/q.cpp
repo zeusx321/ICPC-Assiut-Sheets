@@ -31,6 +31,6 @@ int main() {
                 }
             } 
         }
-       cout << sum << endl;
+        cout << sum << endl;
     }
 }
