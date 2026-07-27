@@ -1,26 +1,38 @@
-#include <iostream>
-#include <string>
-#include <bitset>
+#include <bits/stdc++.h>
 using namespace std;
 
-bool odd(int a){
-    return (a%2 != 0) ? true : false;
-}
+bool binary(int a){
+    string x = "";
+    for (int i = a; i > 0; i = i / 2)
+    {
+        if (i%2 == 0)
+        {
+            x += "0";
+        }else
+        {
+            x += "1";
+        }
+    }
+    
+    for (int i = 0; i < x.size() / 2; i++)
+    {
+        if (x[i] != x[x.size() - i - 1])
+        {
+            return false;
+        }
+    }
 
-bool binaryPail(int a){
-
+    return true;
 }
 
 int main() {
     int a;
     cin >> a;
-
-    string s = bitset<32>(a).to_string();
-    int find = s.find('1')+1;
-   /*  string binaryNum = s.substr(find-1, 32-find); */
-
-    cout << find;
-
-    
-    
+   
+    if (a%2 != 0)
+    {
+        (binary(a))? cout << "YES" : cout << "NO";
+    }else{
+        cout << "NO";
+    }
 }
