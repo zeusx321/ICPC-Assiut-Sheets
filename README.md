@@ -25,11 +25,11 @@ Each sheet focuses on a specific topic — starting with basics like I/O and con
 |:------|:------------------------------|:-----------:|:----------:|
 | 🟢 Sheet #1 | Basic Data Types & Conditions | 26 | ✅ Completed |
 | 🟢 Sheet #2 | Loops | 26 | ✅ Completed |
-| 🟡 Sheet #3 | Arrays | -- | 🔄 In Progress |
-| ⚪ Sheet #4 | Strings | -- | ⏳ Planned |
-| ⚪ Sheet #5 | Functions | -- | ⏳ Planned |
-| ⚪ Sheet #6 | Math | -- | ⏳ Planned |
-| ⚪ Sheet #7 | Recursion | -- | ⏳ Planned |
+| 🟡 Sheet #3 | Arrays | 25 | 🔄 In Progress |
+| ⚪ Sheet #4 | Strings | 24 | 🔄 In Progress |
+| ⚪ Sheet #5 | Functions | 15 | ✅ Completed |
+| ⚪ Sheet #6 | Math | 6 | 🔄 In Progress |
+| ⚪ Sheet #7 | Recursion | 26 | ✅ Completed |
 
 > 🧠 The table will be updated continuously as I solve more sheets.
 
