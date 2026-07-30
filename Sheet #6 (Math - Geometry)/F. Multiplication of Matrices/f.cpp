@@ -30,36 +30,22 @@ int main() {
             cin >> arr2[i][j];
         }
     }
-
-    int resultArr[rA][cB];
-    int x = 0;
-
-    for (int i = 0; i < rA; i++)
-    {
-        int multi, sum = 0;
-        for (int j = 0; j < cB; j++)
-        {
-            multi = arr1[j][i] * arr2[i][j];
-            sum += multi;
-        }
-        resultArr[i][x];
-        x++;
-        if (x == cB - 1)
-        {
-            x = 0;
-            i = 
-        }
-        
-    }
-
+    
     for (int i = 0; i < rA; i++)
     {
         for (int j = 0; j < cB; j++)
         {
-            cout << resultArr[i][j] << " ";
+            int res = 0;
+            for (int k = 0; k < cA; k++)
+            {
+                res += arr1[i][k] * arr2[k][j];
+            }
+            cout << res<< " ";
         }
         cout << endl;
     }
+    
 
+    
     return 0;
 }

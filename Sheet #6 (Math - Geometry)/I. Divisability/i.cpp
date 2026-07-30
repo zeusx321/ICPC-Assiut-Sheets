@@ -3,14 +3,13 @@
 using namespace std;
 
 long long divisability(int a, int b, int x){
-    long long first = (a + x - 1) / x * x;
-    long long last = (b / x) * x;
+    long long k1 = (a - 1) / x;
+    long long k2 = b / x;
 
-    if (first > last) return 0;
+    long long first = 1LL * x * k1 * (k1 + 1) / 2;
+    long long last = 1LL * x * k2 * (k2 + 1) / 2;
 
-    long long n = (last - first) / x + 1;
-    
-    return (n * (first + last)) / 2;
+    return last - first;
 }
 
 int main() {
@@ -20,6 +19,8 @@ int main() {
     int a,b,x;
 
     cin >> a >> b >> x;
+
+    if (a > b) swap(a, b);
     
     cout << divisability(a,b,x);
 
