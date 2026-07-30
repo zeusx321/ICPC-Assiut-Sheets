@@ -1,48 +1,32 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
-
-int main() {
-    /* ios::sync_with_stdio(false);
-    cin.tie(nullptr); */
-
-    string s;
-
-    vector<string> arr;
-
-    bool flag = false;
-
-    while (getline(cin, s))
-    {
-        if (s[0] == '/' && s[1] == '*') {     
-            flag = true;
-            continue;  
-        }
-        if (s[0] == '*' && s[1] == '/') {     
-            flag = false;
-            continue;  
-        }
-        if (flag) continue;
-        if (s[0] == '/' && s[1] == '/') continue;
-        if (s.empty()) continue;
-
-        int x = s.find("//");
-        if(x == -1) {
-            arr.push_back(s);
-        }else{
-            arr.push_back(s.substr(0, x));
-        }
-
-        
-        
-        if(s[0] == '}') break;
-        
-    }
-    
-    for (int i = 0; i < arr.size(); i++)
-    {
-        cout << arr[i] << endl;
-    }
-
-
-    return 0;
+int main(){
+	
+	string line;
+	int open = 1;
+	while(getline(cin,line)){
+		bool flag = 0;
+		if(line.size() == 0 || line == " "){
+			continue;
+		}
+		for(int i = 0; i < line.length(); i++){
+			if(line[i] == '/' && line[i+1] == '/' && open){
+				break;
+			}else if(line[i] == '/' && line[i+1] == '*'){
+				i++;
+				open = 0;
+			} else if(line[i] == '*' && line[i+1] == '/' && !open){ 
+				i++;
+				open = 1;
+			} else if (open == 1) {
+				cout << line[i];
+				flag = 1;
+			}
+		}
+		if(flag && open == 1){
+			cout << endl;
+		}
+		
+	}
+	
 }
