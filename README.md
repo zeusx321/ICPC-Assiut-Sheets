@@ -25,8 +25,8 @@ Each sheet focuses on a specific topic — starting with basics like I/O and con
 |:------|:------------------------------|:-----------:|:----------:|
 | 🟢 Sheet #1 | Basic Data Types & Conditions | 26 | ✅ Completed |
 | 🟢 Sheet #2 | Loops | 26 | ✅ Completed |
-| 🟡 Sheet #3 | Arrays | 25 | 🔄 In Progress |
-| ⚪ Sheet #4 | Strings | 24 | 🔄 In Progress |
+| 🟡 Sheet #3 | Arrays | 26 | ✅ Completed |
+| ⚪ Sheet #4 | Strings | 26 | ✅ Completed |
 | ⚪ Sheet #5 | Functions | 15 | ✅ Completed |
 | ⚪ Sheet #6 | Math | 6 | 🔄 In Progress |
 | ⚪ Sheet #7 | Recursion | 26 | ✅ Completed |
